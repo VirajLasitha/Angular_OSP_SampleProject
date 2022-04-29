@@ -1,0 +1,74 @@
+<div class="visitor">
+    <div class="form-headers">
+        <img src="../../../assets/images/visitor-management.png">
+        <p>Visitors’ Management</p>
+        <a href="#">
+            <mat-icon>home</mat-icon>
+        </a>
+    </div>
+    <div class="form-container">
+        <div class="row">
+            <div class="tile">
+                <p class="title">Today</p>
+                <p class="count">
+                    10
+                </p>
+            </div>
+            <div class="tile">
+                <p class="title">This Month</p>
+                <p class="count">
+                    56
+                </p>
+            </div>
+            <button mat-flat-button class="visitor-button">
+                <mat-icon>person_add</mat-icon>
+                &nbsp; New Visitor
+            </button>
+        </div>
+        <p class="form-title">Visitors</p>
+
+   <div class="table-area">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="dateTime">
+            <th mat-header-cell *matHeaderCellDef> Date & Time </th>
+            <td mat-cell *matCellDef="let element"> {{element.dateTime}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="phone">
+            <th mat-header-cell *matHeaderCellDef> Phone </th>
+            <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="visitorType">
+            <th mat-header-cell *matHeaderCellDef> Visitor Type </th>
+            <td mat-cell *matCellDef="let element"> {{element.visitorType}} </td>
+        </ng-container>
+
+             <!-- Symbol Column -->
+             <ng-container matColumnDef="visitorPurpose">
+                <th mat-header-cell *matHeaderCellDef> Visitor Type </th>
+                <td mat-cell *matCellDef="let element"> {{element.visitorPurpose}} </td>
+            </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+   </div>
+
+
+
+    </div>
+</div>

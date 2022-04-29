@@ -1,0 +1,36 @@
+<div class="sidebar">
+    <div class="logo-area">
+        <img src="../../../assets/images/OSP Official Logo 3.png" alt="Office of Special Prosecutor">
+    </div>
+    <div class="profile-area">
+        <img src="../../../assets/images/sample-profile-picture.png">
+        <div class="profile-details">
+            <p class="profile-name">Kissi Agyebeng</p>
+            <p class="profile-role">Super Admin</p>
+        </div>
+    </div>
+    <div *ngIf="resultOfIconVisible">
+        <a href="" class="menu-item active">
+            <span>
+                <mat-icon>dashboard</mat-icon>
+                Dashboard 
+            </span>
+        </a>
+
+        <a href="" class="menu-item">
+            <span>
+                <mat-icon>calendar_today</mat-icon>
+                Schedules
+            </span>
+        </a>
+
+        <a href="" class="menu-item">
+            <span>
+                <mat-icon>library_books</mat-icon>
+                Account Activity
+            </span>
+        </a>
+    </div>
+  
+    <button mat-button class="logout-button">Logout</button>
+</div>

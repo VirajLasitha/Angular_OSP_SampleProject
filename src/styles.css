@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Theme Overriding */
+.mat-drawer-container {
+    background-color: #FFFFFF !important;
+}
+
+.mat-drawer-side {
+    /* border: 0; */
+}
+
+.mat-body p,
+.mat-body-1 p,
+.mat-typography .mat-body p,
+.mat-typography .mat-body-1 p,
+.mat-typography p {
+    margin: 0 !important;
+}
+
+/* Common */
+.form-headers {
+    background-color: #FFF7D9;
+    margin-top: 65px;
+    position: relative;
+    padding-left: 26px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 68px;
+}
+
+.form-headers img {
+    height: 68px;
+}
+
+.form-headers p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    position: absolute;
+    top: 34px;
+    left: 118px;
+    color: #051D5D;
+}
+
+.form-headers a {
+    color: #806C2A;
+    text-decoration: none;
+    position: absolute;
+    top: 34px;
+    right: 124px;
+}
+
+.form-container {
+    padding: 26px;
+}
+
+.form-container .tile {
+    width: 152px;
+    height: 65px;
+
+    box-shadow: 5px 5px 25px rgba(192, 192, 192, 0.25);
+    border-radius: 8px;
+
+    margin-right: 24px;
+    padding: 20px 16px;
+
+    position: relative;
+    float: left;
+}
+
+.form-container .tile .title {
+    color: #806C2A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.form-container .tile .count{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px; 
+}
+
+.form-container .form-title{
+    color: #806C2A;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px; 
+position: absolute;
+top: 320px;
+/* margin: 0 !important; */
+}

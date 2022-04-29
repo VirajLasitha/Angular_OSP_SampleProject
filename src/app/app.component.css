@@ -1,0 +1,14 @@
+.main-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* padding: 20px; */
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  }
+
+.main-sidebar{
+    width: 262px;
+}
+

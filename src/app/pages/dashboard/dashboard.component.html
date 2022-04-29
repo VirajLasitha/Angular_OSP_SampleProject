@@ -1,0 +1,60 @@
+<div class="dashboard">
+    <p class="logged-header">
+        You are Logged in as
+    </p>
+    <p class="logger-username">
+        Kissi Agyebeng
+    </p>
+    <div class="menus">
+        <mat-grid-list [cols]="mybreakpoint" (window:resize)="handleSize($event)">
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a routerLink="visitor">
+                        <img src="../../../assets/images/visitor-management.png">
+                        <p>Visitors’ Management</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a href="#">
+                        <img src="../../../assets/images/human-resource.png">
+                        <p>Human Resource</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a href="#">
+                        <img src="../../../assets/images/complain.png">
+                        <p>Complaints Management</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a href="#">
+                        <img src="../../../assets/images/finance.png">
+                        <p>Finance & Accounts</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a href="#">
+                        <img src="../../../assets/images/document-management.png">
+                        <p>Document Management</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="menu-item">
+                    <a href="#">
+                        <img src="../../../assets/images/case-management.png">
+                        <p>Case Management</p>
+                    </a>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</div>

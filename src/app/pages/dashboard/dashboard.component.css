@@ -1,0 +1,67 @@
+.dashboard {
+    padding: 38px;
+}
+
+.dashboard .logged-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    color: #424242;
+}
+
+.dashboard .logger-username {
+    font-family: 'Athelas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #806C2A;
+    margin-top: 8px !important;
+}
+
+.dashboard .menus {
+    margin-top: 40px;
+}
+
+.dashboard .menus mat-grid-tile {
+    padding: 11px;
+}
+
+.dashboard .menu-item {
+    width: 325px;
+    height: 306px;
+    background-color: #FFFFFF;
+    box-shadow: 4.55966px 4.55966px 27.358px rgba(128, 128, 128, 0.25);
+    border-radius: 8px;
+}
+
+.dashboard .menu-item a {
+    width: 100%;
+    height: 306px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centering y-axis */
+    align-items: center;
+    /* Centering x-axis */
+}
+
+.dashboard .menu-item img {
+    width: 137px; 
+
+}
+
+.dashboard .menu-item p {
+    color: #806C2A;
+    position: absolute;
+    bottom: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0625px;
+    line-height: 30px;
+}

@@ -1,0 +1,47 @@
+.visitor-button {
+    background-color: #806C2A;
+    width: 240px;
+    height: 64px;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    margin-top: 40px;
+}
+
+.table-area {
+    margin-top: 100px;
+    position: relative;
+}
+
+table {
+    width: 100%;
+}
+
+/* Overriding */
+.mat-elevation-z8 {
+    box-shadow: none !important;
+}
+
+.mat-table th {
+    color: #806C2A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.mat-table td {
+    color: #808080;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}

@@ -1,0 +1,99 @@
+/* Logo Area */
+
+.logo-area {
+    margin-top: 22px;
+}
+
+.logo-area img {
+    width: 128px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Profile Area */
+
+.profile-area {
+    background-color: brown;
+    margin-top: 37px;
+    padding-left: 40px;
+    padding-right: 27px;
+    margin-bottom: 140px;
+}
+
+.profile-area img {
+    width: 51px;
+    border-radius: 8px;
+    padding-top: 8px;
+    float: left;
+    position: relative;
+}
+
+.profile-details {
+    height: 51px;
+    padding-top: 12px;
+    padding-left: 8px;
+    float: left;
+}
+
+.profile-details .profile-name {
+    color: #806C2A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.profile-details .profile-role {
+    color: #808080;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.sidebar .menu-item {
+    position: relative;
+    float: left;
+    color: #808080;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.sidebar .active {
+    border-left: #806C2A 4px solid;
+    color: #806C2A;
+    font-weight: 500;  
+}
+
+.sidebar .menu-item mat-icon {
+    position: absolute;
+    left: 10px;
+    right: 7px;
+    top: 7px;
+    /* bottom: 12.5%;  */
+}
+
+/* Logout */
+
+.logout-button {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    color: #806C2A;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
